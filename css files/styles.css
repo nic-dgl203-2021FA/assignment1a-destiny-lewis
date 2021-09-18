@@ -1,11 +1,12 @@
 /* COLOR PALLETE
 https://coolors.co/3a3335-678d58-ece2d0-6d9dc5-ce6c47
 
-TERRA COTTA:    #ED6A5A
-CERULEAN FROST: #6D9DC5
-BONE:           #ECE2D0
-RUSSIAN GREEN:  #678D58
-BLACK COFFEE:   #3A3335
+TERRA COTTA:            #ED6A5A
+CERULEAN FROST:         #6D9DC5
+BONE:                   #ECE2D0
+RUSSIAN GREEN:          #678D58
+BLACK COFFEE:           #3A3335
+DARK PURPLE:            #310A31
 
 */
 
@@ -19,6 +20,14 @@ img {
     width: 300px;
 }
 
+a {
+    color: #310A31;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 /* PROFILE SECTION
 ---------------------------------------------------*/
 header {
@@ -29,6 +38,21 @@ header {
 ---------------------------------------------------*/
 .projects {
     background-color: #ECE2D0;
+}
+
+.projects a {
+
+}
+
+.projects .btn {
+    background-color: #6D9DC5;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background-color: rgba(109, 157, 197, 85%)
 }
 
 
@@ -46,4 +70,19 @@ header {
 footer {
     background-color: #678D58;
     color: #ECE2D0;
+}
+
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li .contact {
+    text-decoration: none;
+    color: #310A31;
+}
+
+footer ul li .contact:hover {
+    text-decoration: none;
+    color: rgba(49, 10, 49, 85%)
 }
