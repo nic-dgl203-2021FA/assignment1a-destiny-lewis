@@ -111,6 +111,12 @@ header {
     background-color: #ED6A5A;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
 /* EDUCATION SECTION
 ---------------------------------------------------*/
 
