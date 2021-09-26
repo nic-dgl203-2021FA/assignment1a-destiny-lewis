@@ -89,6 +89,20 @@ header {
     background-color: rgba(109, 157, 197, 85%)
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #3A3335;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
 
 /* WORK EXP. SECTION
 ---------------------------------------------------*/
