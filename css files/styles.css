@@ -12,6 +12,14 @@ DARK PURPLE:            #310A31
 
 /* GLOBAL STYLES
 ---------------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #3A3335;
     margin: 0;
