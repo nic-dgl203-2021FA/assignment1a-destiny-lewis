@@ -140,7 +140,14 @@ header {
 /* EDUCATION SECTION
 ---------------------------------------------------*/
 .education {
-    background-image: url(../placeholder\ images/joanna-kosinska-unsplash.jpg)
+    background-image: url(../placeholder\ images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p {
+    width: 60%;
 }
 
 /* CONTACT SECTION
