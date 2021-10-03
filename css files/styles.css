@@ -18,6 +18,23 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me {
+    background-color: rgba(252, 240, 200, 0.7);
+    border-radius: 30px;
+}
+
+.about-me p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 body {
     color: #3A3335;
     margin: 0;
