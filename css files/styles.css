@@ -60,7 +60,7 @@ img {
 }
 
 a {
-    color: #310A31;
+    color: #3A3335;
 }
 
 a:hover {
@@ -104,6 +104,31 @@ h3 {
 ---------------------------------------------------*/
 header {
     background-color: #6D9DC5;
+}
+
+.navigation {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-right: 5%;
+    padding-top: 10px;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.navigation a {
+    color: #3A3335;
+}
+
+.navigation a:hover {
+    color: #D7E9F7;
+}
+
+.navigation a:active {
+    background-color: #D7E9F7;
 }
 
 /* PROJECTS SECTION
