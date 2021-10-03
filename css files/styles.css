@@ -101,17 +101,6 @@ h3 {
     margin: 0;
 }
 
-/* Remove border */
-
-/* .divider > section {
-    border-bottom: 1px dashed #3A3335;
-    padding: 25px 0;
-} */
-
-/* .divider > section:last-of-type {
-    border-bottom: none;
-} */
-
 /* PROFILE SECTION
 ---------------------------------------------------*/
 header {
@@ -193,20 +182,6 @@ header {
 footer {
     background-color: #D7E9F7;
 }
-
-/* footer ul li {
-    list-style-type: none;
-}
-
-footer ul li .contact {
-    text-decoration: none;
-    color: #310A31;
-}
-
-footer ul li .contact:hover {
-    text-decoration: none;
-    color: rgba(49, 10, 49, 85%)
-} */
 
 .contact-list {
     list-style-type: none;
