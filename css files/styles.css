@@ -1,4 +1,4 @@
-/* COLOR PALLETE
+/* COLOR PALLETE - Version 1
 https://coolors.co/3a3335-678d58-ece2d0-6d9dc5-ce6c47
 
 TERRA COTTA:            #ED6A5A
@@ -7,6 +7,17 @@ BONE:                   #ECE2D0
 RUSSIAN GREEN:          #678D58
 BLACK COFFEE:           #3A3335
 DARK PURPLE:            #310A31 */
+
+/* COLOR PALLETE - Version 2
+https://colorhunt.co/palette/911f27630a10fcf0c8face7f 
+https://colorhunt.co/palette/2d24245c3d2eb85c38e0c097
+
+FCF0C8      BEIGE
+D7E9F7      LIGHT BLUE
+E98580      SALMON PINK
+3A3335      BLACK COFFEE
+
+
 
 /* GLOBAL STYLES
 ---------------------------------------------------*/
@@ -26,7 +37,7 @@ header {
 }
 
 .about-me {
-    background-color: rgba(252, 240, 200, 0.7);
+    background-color: rgba(215, 233, 247, 0.7);
     border-radius: 30px;
 }
 
@@ -90,14 +101,16 @@ h3 {
     margin: 0;
 }
 
-.divider > section {
+/* Remove border */
+
+/* .divider > section {
     border-bottom: 1px dashed #3A3335;
     padding: 25px 0;
-}
+} */
 
-.divider > section:last-of-type {
+/* .divider > section:last-of-type {
     border-bottom: none;
-}
+} */
 
 /* PROFILE SECTION
 ---------------------------------------------------*/
@@ -108,7 +121,7 @@ header {
 /* PROJECTS SECTION
 ---------------------------------------------------*/
 .projects {
-    background-color: #ECE2D0;
+    background-color: #FACE7F;
 }
 
 .projects .btn {
@@ -125,6 +138,10 @@ header {
 
 .project-item {
     overflow: hidden;
+    background-color: #E98580;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 40px;
 }
 
 .project-item h3 {
@@ -134,27 +151,47 @@ header {
 /* WORK EXP. SECTION
 ---------------------------------------------------*/
 .work-exp {
-    background-color: #ED6A5A;
+    background-color: #E98580;
+}
+
+.job-item {
+    background-color: #FACE7F;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 40px;
 }
 
 /* EDUCATION SECTION
 ---------------------------------------------------*/
 .education {
-    background-image: url(../placeholder\ images/joanna-kosinska-unsplash.jpg);
+    background-image: url(../images/education.jpg);
     background-size: cover;
-    background-position: top right;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .education p {
     width: 60%;
 }
 
+.education-info {
+    background-color: rgba(215, 233, 247, 0.7);
+    border-radius: 30px;
+    padding-left: 40px;
+}
+
+.education-info h3 ~ p {
+    line-height: .5;
+}
+
+.education-info ul li {
+    list-style-type: none;
+}
+
 /* CONTACT SECTION
 ---------------------------------------------------*/
 footer {
-    background-color: #678D58;
-    color: #ECE2D0;
+    background-color: #D7E9F7;
 }
 
 /* footer ul li {
