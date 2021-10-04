@@ -131,6 +131,21 @@ header {
     background-color: #D7E9F7;
 }
 
+/* Modal */
+
+.button:hover {
+    color: #E98580;
+}
+
+.myModal {
+    display: none;
+    transition: 0.4s;
+}
+
+.myModal:target {
+    display: block;
+}
+
 /* PROJECTS SECTION
 ---------------------------------------------------*/
 .projects {
